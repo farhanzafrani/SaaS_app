@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page_title }}</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Zafrani SaaS</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Home Page</h2>
+            {% block content %}
+
+            {% endblock content %}
+        </section>
+        
+        <h2>
+            {% block parah%}
+
+            {% endblock parah %}
+        </h2>
+    </main>
+    <footer>
+        <p>&copy; 2023 Zafrani SaaS. All rights reserved.</p>
+    </footer>
+</body>
+</html>
