@@ -8,3 +8,8 @@
 {% block parah %}
     <p>Explore our features and get started with your SaaS journey today!</p>
 {% endblock parah %}
+
+{% block about %}
+    {{ path_qs_count }} queries have been made to the {{request.path}}.
+    {{ qs_counts }} Are the total queries made to the database.
+{% endblock about %}
